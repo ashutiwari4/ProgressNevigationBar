@@ -30,7 +30,7 @@ Implement these Two Interfaces NavigationBar.OnTabSelected, NavigationBar.OnTabC
         bar.setOnTabSelected(this);
         bar.setOnTabClick(this);
 	
-	bar.setTabCount(count);
+		bar.setTabCount(count);
         bar.animateView(3000);
         bar.setCurrentPosition(position <= 0 ? 0 : position);
 
