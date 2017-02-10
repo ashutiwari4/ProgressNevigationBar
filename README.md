@@ -2,7 +2,7 @@
 
 
 
-It is recomended to use it in Horizontal ScrollView
+It is recomended to use NavigationBar in Horizontal ScrollView
 
 		<com.library.NavigationBar
 			android:id="@+id/navBar"
