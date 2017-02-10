@@ -36,7 +36,7 @@ And Below is code to setup the NavigationBar
 	
 		bar.setTabCount(count);
         bar.animateView(3000);
-        bar.setCurrentPosition(position <= 0 ? 0 : position);
+        bar.setCurrentPosition(pos);
 
 To reset nevigationBar 
 
