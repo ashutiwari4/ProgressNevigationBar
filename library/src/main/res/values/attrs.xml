@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<declare-styleable name="NavigationBar">
+		<attr name="tab_indicator_color" format="color|reference"/>
+		<!--<attr name="base_text_color" format="color|reference"/>-->
+		<!--<attr name="base_text" format="string|reference"/>-->
+		<!--   <attr name="tab_border_color" format="color|reference"/>-->
+		<attr name="tab_strok_width" format="dimension|reference"/>
+		<!--<attr name="base_text_stze" format="dimension|reference"/>-->
+		<!--<attr name="base_radius" format="dimension|reference"/>-->
+
+		<!--<attr name="item_text_color" format="color|reference"/>-->
+		<attr name="central_line_color" format="color|reference"/>
+		<attr name="central_line_height" format="dimension|reference"/>
+		<attr name="tab_padding" format="dimension|reference"/>
+		<attr name="tab_text_size" format="dimension|reference"/>
+		<!--<attr name="item_text_color_array" format="reference"/>-->
+		<!--<attr name="item_text_array" format="reference"/>-->
+		<attr name="tab_color_array" format="reference"/>
+		<attr name="only_border" format="boolean"/>
+		<attr name="enable_border" format="boolean"/>
+		<attr name="tab_border_color_array" format="reference"/>
+		<attr name="tab_text_color_array" format="reference"/>
+		<!--<attr name="item_radius" format="dimension|reference"/>-->
+
+	</declare-styleable>
+
+
+</resources>
+ 

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<array name="indicator_colors">
+		<item>#FFFFFFFF</item>
+		<!--Default-->
+		<item>@color/violet</item>
+		<!--Wrong-->
+		<item>@color/navigationBarColorSkipped</item>
+		<!--Right-->
+		<item>@color/colorAccent</item>
+		<!--Skipped-->
+		<item>@color/colorAccent</item>
+		<!--Current-->
+		<item>@color/navigationBarColorAttemped</item>
+		<!--Processed-->
+
+	</array>
+	<array name="boder_state_colors">
+		<item>@color/navigationBarColorAttemped</item>
+		<!--Default-->
+		<item>@color/violet</item>
+		<!--Wrong-->
+		<item>@color/navigationBarColorSkipped</item>
+		<!--Right-->
+		<item>@color/colorAccent</item>
+		<!--Skipped-->
+		<item>@color/colorAccent</item>
+		<!--Current-->
+		<item>@color/navigationBarColorAttemped</item>
+		<!--Processed-->
+
+	</array>
+
+	<array name="text_state_colors">
+		<item>@color/black</item>
+		<!--Default-->
+		<item>@color/violet</item>
+		<!--Wrong-->
+		<item>@color/lightGreen</item>
+		<!--Right-->
+		<item>@color/white</item>
+		<!--Skipped-->
+		<item>@color/white</item>
+		<!--Current-->
+		<item>@color/white</item>
+		<!--Processed-->
+
+	</array>
+
+</resources>
