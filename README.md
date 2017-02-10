@@ -22,5 +22,18 @@ It is recomended to use it in Horizontal ScrollView
 			app:tab_text_size="18sp"/>
 
 There is an array.xml which is having tab_border_color_array, tab_color_array and tab_text_color_array
-You can refer this file [a link](https://github.com/user/repo/blob/branch/other_file.md)
+You can refer this file [array.xml](https://github.com/ashutiwari4/ProgressNevigationBar/blob/master/app/src/main/res/values/array.xml)
+
+Implement these Two Interfaces NavigationBar.OnTabSelected, NavigationBar.OnTabClick
+
+     	NavigationBar bar = (NavigationBar) findViewById(R.id.navBar);
+        bar.setOnTabSelected(this);
+        bar.setOnTabClick(this);
+	
+	bar.setTabCount(count);
+        bar.animateView(3000);
+        bar.setCurrentPosition(position <= 0 ? 0 : position);
+
+To reset nevigationBar 
+	bar.resetItems();
 
