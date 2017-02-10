@@ -24,7 +24,11 @@ It is recomended to use it in Horizontal ScrollView
 There is an array.xml which is having tab_border_color_array, tab_color_array and tab_text_color_array
 You can refer this file [array.xml](https://github.com/ashutiwari4/ProgressNevigationBar/blob/master/app/src/main/res/values/array.xml)
 
-Implement these Two Interfaces NavigationBar.OnTabSelected, NavigationBar.OnTabClick
+Implement these Two Interfaces
+
+	NavigationBar.OnTabSelected, NavigationBar.OnTabClick
+
+And Below is code to setup the NavigationBar
 
      	NavigationBar bar = (NavigationBar) findViewById(R.id.navBar);
         bar.setOnTabSelected(this);
@@ -35,5 +39,6 @@ Implement these Two Interfaces NavigationBar.OnTabSelected, NavigationBar.OnTabC
         bar.setCurrentPosition(position <= 0 ? 0 : position);
 
 To reset nevigationBar 
+
 	bar.resetItems();
 
