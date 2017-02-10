@@ -1,6 +1,6 @@
 # ProgressNevigationBar
 
-![ProgressBar Demo](https://gifs.com/gif/progress-bar-j2VxVW)
+![ProgressBar Demo](https://j.gifs.com/j2VxVW.gif)
 
 It is recomended to use NavigationBar in Horizontal ScrollView
 
