@@ -1,0 +1,26 @@
+# ProgressNevigationBar
+
+
+
+It is recomended to use it in Horizontal ScrollView
+
+		<com.library.NavigationBar
+			android:id="@+id/navBar"
+			android:layout_width="match_parent"
+			android:layout_height="56dp"
+			android:background="#ffffffff"
+			android:padding="6dp"
+			app:central_line_height="1dp"
+			app:enable_border="true"
+			app:only_border="false"
+			app:tab_border_color_array="@array/border_state_colors"
+			app:tab_color_array="@array/indicator_colors"
+			app:tab_indicator_color="@color/darkYellow"
+			app:tab_padding="48dp"
+			app:tab_strok_width="3dp"
+			app:tab_text_color_array="@array/text_state_colors"
+			app:tab_text_size="18sp"/>
+
+There is an array.xml which is having tab_border_color_array, tab_color_array and tab_text_color_array
+You can refer this file [a link](https://github.com/user/repo/blob/branch/other_file.md)
+
