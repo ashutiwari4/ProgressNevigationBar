@@ -19,12 +19,13 @@ public class MainActivity extends AppCompatActivity implements NavigationBar.OnT
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        bar = (NavigationBar) findViewById(R.id.navBar);
         etNumberOfCount = (EditText) findViewById(R.id.et_count);
+        bar = (NavigationBar) findViewById(R.id.navBar);
         bar.setOnTabSelected(this);
         bar.setOnTabClick(this);
         setup(true, 4);
     }
+
 
     private void setup(boolean reset, int count) {
         if (reset)
@@ -41,6 +42,10 @@ public class MainActivity extends AppCompatActivity implements NavigationBar.OnT
 
     public void onClickView(View v) {
         switch (v.getId()) {
+            case R.id.btn_reset:
+                setup(true, 4);
+                etNumberOfCount.setText("");
+                break;
             case R.id.btn_next:
                 bar.setCurrentPosition(++position);
                 break;
@@ -55,6 +60,6 @@ public class MainActivity extends AppCompatActivity implements NavigationBar.OnT
 
     @Override
     public void onTabClick(int touchPosition, NvTab prev, NvTab nvTab) {
-        Toast.makeText(getApplicationContext(),"You clicked on: "+touchPosition,Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "You clicked on: " + touchPosition, Toast.LENGTH_LONG).show();
     }
 }

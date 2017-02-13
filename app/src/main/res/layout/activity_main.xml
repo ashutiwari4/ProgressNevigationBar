@@ -12,12 +12,21 @@
 	android:paddingTop="@dimen/activity_vertical_margin"
 	tools:context="com.progressindicator.MainActivity">
 
+	<Button
+		android:id="@+id/btn_reset"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:onClick="onClickView"
+		android:text="Reset"/>
+
 	<HorizontalScrollView
 		android:id="@+id/navContainer"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:layout_centerHorizontal="true"
 		android:paddingBottom="5dp"
+		android:layout_below="@id/btn_reset"
 		android:paddingTop="5dp"
 		android:scrollbars="none">
 
@@ -30,9 +39,9 @@
 			app:central_line_height="1dp"
 			app:enable_border="true"
 			app:only_border="false"
-			app:tab_border_color_array="@array/boder_state_colors"
+			app:tab_border_color_array="@array/border_state_colors"
 			app:tab_color_array="@array/indicator_colors"
-			app:tab_indicator_color="@color/darkYellow"
+			app:tab_indicator_color="@color/sky_blue"
 			app:tab_padding="48dp"
 			app:tab_strok_width="3dp"
 			app:tab_text_color_array="@array/text_state_colors"
@@ -74,6 +83,7 @@
 		android:layout_centerHorizontal="true"
 		android:layout_marginTop="64dp"
 		android:digits="1234567890"
+		android:maxLength="3"
 		android:hint="Enter count"
 		android:inputType="number"/>
 

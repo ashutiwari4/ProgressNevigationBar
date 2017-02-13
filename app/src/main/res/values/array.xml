@@ -12,12 +12,12 @@
 		<!--Skipped-->
 		<item>@color/colorAccent</item>
 		<!--Current-->
-		<item>@color/navigationBarColorAttemped</item>
+		<item>@color/navigationBarColorAttempted</item>
 		<!--Processed-->
 
 	</array>
-	<array name="boder_state_colors">
-		<item>@color/navigationBarColorAttemped</item>
+	<array name="border_state_colors">
+		<item>@color/navigationBarColorAttempted</item>
 		<!--Default-->
 		<item>@color/violet</item>
 		<!--Wrong-->
@@ -27,7 +27,7 @@
 		<!--Skipped-->
 		<item>@color/colorAccent</item>
 		<!--Current-->
-		<item>@color/navigationBarColorAttemped</item>
+		<item>@color/navigationBarColorAttempted</item>
 		<!--Processed-->
 
 	</array>
@@ -45,7 +45,6 @@
 		<!--Current-->
 		<item>@color/white</item>
 		<!--Processed-->
-
 	</array>
 
 </resources>
