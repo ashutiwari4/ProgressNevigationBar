@@ -1,5 +1,30 @@
 apply plugin: 'com.android.library'
 
+
+ext {
+    bintrayRepo = 'ProgressNevigationBar'
+    bintrayName = 'progress-nevigation-bar'
+
+    publishedGroupId = 'com.ashutosh.progress-nevigation-bar'
+    libraryName = 'library'
+    artifact = 'library'
+
+    libraryDescription = 'Android library for showing progress with progress bubbles. Works with click and touch on bubbles. Bubbles can be generated on run time. It also saves previous position until reset Progressbar.'
+
+    siteUrl = 'https://github.com/ashutiwari4/ProgressNevigationBar'
+    gitUrl = 'https://github.com/ashutiwari4/ProgressNevigationBar.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'ashutiwari4'
+    developerName = 'Ashutosh Tiwari'
+    developerEmail = 'ashutiwari4@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -28,4 +53,8 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.1.1'
     testCompile 'junit:junit:4.12'
+
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

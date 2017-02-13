@@ -1,8 +1,13 @@
-# ProgressNevigationBar
+# ProgressNavigationBar
 
 ![ProgressBar Demo](https://github.com/ashutiwari4/ProgressNevigationBar/blob/master/demo.gif)
 
-It is recomended to use NavigationBar in Horizontal ScrollView
+
+Add ProgressBar to your gradle
+
+      compile 'com.ashutosh.progress-nevigation-bar:library:1.0.0'
+
+It is recommended to use NavigationBar in Horizontal ScrollView
 
 		<com.library.NavigationBar
 			android:id="@+id/navBar"
@@ -38,7 +43,7 @@ And Below is code to setup the NavigationBar
         bar.animateView(3000);
         bar.setCurrentPosition(pos);
 
-To reset nevigationBar 
+To reset navigationBar
 
 	bar.resetItems();
 
